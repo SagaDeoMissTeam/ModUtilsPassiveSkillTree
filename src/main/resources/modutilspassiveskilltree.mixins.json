@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sixik.modutilspassiveskilltree.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ModUtilsPassiveSkillTree.refmap.json",
+  "mixins": [
+    "PlayerSkillsMixin",
+    "PlayerSkillsProviderMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
